@@ -1,0 +1,20 @@
+{
+  "name": "node-back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "Albert Freitas",
+  "license": "ISC",
+  "description": "Cadastro Usuarios Back-End node.js",
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "prisma": "^6.4.1"
+  }
+}
